@@ -23,10 +23,6 @@ This project deploys smart contracts to the blockchain using Hardhat. The follow
     ```
     npm install
     ```
-4. Initialize `hardhat`
-    ```
-    npx hardhat
-    ```
 
 ## Configuration
 
@@ -45,10 +41,12 @@ This project deploys smart contracts to the blockchain using Hardhat. The follow
     RPC_ENDPOINT=https://ethereum-sepolia-rpc.publicnode.com
     WALLET_PRIVATE_KEY=your_private_key_here
     ```
-
-### Hardhat Configuration
-
-The `hardhat.config.js` file is set up to use the environment variables from the `.env` file and specify the solidity version and network settings. Ensure the configuration matches your setup.
+3. Hardhat Configuration  
+    The `hardhat.config.js` file is set up to use the environment variables from the `.env` file and specify the solidity version and network settings. Ensure the configuration matches your setup.
+3. Initialize `hardhat`
+    ```
+    npx hardhat
+    ```
 
 ## Setup Solidity Contract
 
